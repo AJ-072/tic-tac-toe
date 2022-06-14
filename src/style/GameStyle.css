@@ -1,0 +1,59 @@
+.game{
+    background-color: white;
+    text-align: center;
+    height: 100vh;
+    padding: 100px;
+}
+.game-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-heading{
+    color: rgb(252, 198, 128);
+    font-family:'Courier New', Courier, monospace;
+}
+.game-score{
+    margin-top: 120px;
+    margin-right: 50px;
+    color: rgb(252, 198, 128);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.game-score-value{
+    color: rgb(241, 141, 10);
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.game-horizontal-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.bottom-button{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    background-color:rgb(241, 141, 10);
+    border: 0;
+    border-radius: 5px;
+}
+
+.bottom-button:active{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    background-color:rgb(189, 110, 6);
+    border: 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+.board-row{
+    height: 150px;
+    width: 450px;
+}
+
+.status{
+    font-size: xx-large;
+    color: goldenrod;
+    margin: 10px;
+}
